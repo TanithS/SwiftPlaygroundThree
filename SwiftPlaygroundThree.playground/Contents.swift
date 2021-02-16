@@ -1,7 +1,5 @@
 import UIKit
 
-var str = "Hello, playground"
-
 //Part 3:
 
 var fruitNames = [String]()
@@ -27,3 +25,15 @@ for name in fruitNames {
 //Part 8:
 
 print(fruitNames[1])
+
+//Part 9:
+
+var expensiveCars = [String]()
+
+expensiveCars = ["Koenigsegg Trevita", "Lykan HyperSport", "Rolls-Royce Sweptail", "Pininfarina Sergio", "Bugatti La Voiture Noire", "Bugatti Centodieci", "Aston Martin Valkyrie", "Ferrari F60 America"]
+
+for name in expensiveCars {
+    print (name + " is a very expensive car.")
+}
+
+print(expensiveCars[0])
